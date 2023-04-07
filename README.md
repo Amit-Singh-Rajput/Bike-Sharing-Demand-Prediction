@@ -14,15 +14,16 @@ Through this project, we've developed hyper-parameter tuned Gradient Boosting to
 
 Our project flowchart includes the following steps:
 
-Loading and diagnosing the data
-Data filtering
-EDA of raw data
-Feature engineering
-Feature selection
-Model building
-Model training and testing
-Model evaluation and hyper-parameter tuning
-Models Used
+- Loading and diagnosing the data
+- Data filtering
+- EDA of raw data
+- Feature engineering
+- Feature selection
+- Model building
+- Model training and testing
+- Model evaluation and hyper-parameter tuning
+
+## **Models Used**
 We have used popular regression models such as Linear Regression, Lasso Regression, Ridge Regression, Decision Tree, Random Forest, Gradient Boosting, and XGBoost to determine which model provides the best deployment.
 
 ## **Key Findings**
