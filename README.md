@@ -1,36 +1,34 @@
-# Bike-Sharing-Demand-Prediction
-Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
+# Bike Sharing Demand Prediction Project
 
-Tags: Imputter, One-hot Encoder, StandardScalar, Linear Regression, Random Forest, Decision
-tree, XGBoost, VIF, GridsearchCV, Hyperparameter Tuning RMSE, R-square, Feature Importance.
+**Introduction**
 
-1. Predicting bike-sharing demand can help companies to allocate their services better and ensure more sufficient circulation of bikes for customers. 
-2. Developed hyper-parameter tuned gradient Boosting to predict the number of bikes that can be rented per hour by the company. 
-3. Implemented different ML algorithms Linear Regression, DT, RF, SVM, and XGBoost, to predict the Bike count per hour. Imputed missing values, encoded categorical features, handled outliers, and checked multicollinearity. 
-4. The same modeling technique can be used for Transportation, E-Commerce, and TaxiDemand Prediction.
-This project will be explored over the previous data in order to predict the number of bikes that can be rented per hour by the company. So that customers can get the best experience without any delays. We will build different regression models and check which proves to be the best for the deployment.
+In many urban cities, rental bikes are an excellent way to enhance mobility comfort. However, ensuring a stable supply of rental bikes at the right time is critical. That's where predictive modeling comes in. By accurately predicting the number of bikes needed per hour, companies can allocate their services better and ensure more sufficient circulation of bikes for customers, ultimately providing the city with a better bike-sharing experience.
 
-Project Flowchart:
-* Loading data and Diagnosing the data
-* Data Filtering
-* EDA of Row data to understand inside correlations
-* Feature Engineering
-* Feature Selection
-* Model Building
-* Model Training and Testing
-* Model Evaluation & Hyper Parameter tuning
+**Project Overview**
 
+This project uses machine learning algorithms such as Linear Regression, Decision Tree, Random Forest, SVM, and XGBoost to predict the bike count per hour. We've also implemented feature engineering, feature selection, imputation of missing values, categorical feature encoding, outlier handling, and multicollinearity checking to ensure the models' accuracy.
+
+Through this project, we've developed hyper-parameter tuned Gradient Boosting to predict the number of bikes that can be rented per hour by the company. The same modeling techniques can also be applied to other industries, such as transportation, e-commerce, and taxi demand prediction.
+
+**Project Flowchart**
+
+Our project flowchart includes the following steps:
+
+Loading and diagnosing the data
+Data filtering
+EDA of raw data
+Feature engineering
+Feature selection
+Model building
+Model training and testing
+Model evaluation and hyper-parameter tuning
 Models Used
-* Linear Regression
-* Lasso Regression
-* Ridge Regression
-* Decision Tree
-* Random Forest
-* Gradient Boosting
-* XGBoost
+We have used popular regression models such as Linear Regression, Lasso Regression, Ridge Regression, Decision Tree, Random Forest, Gradient Boosting, and XGBoost to determine which model provides the best deployment.
 
-Conclusions:
+**Key Findings**
 
-- Bike rental count is mostly correlated with the time of the day as it is peak at 8 am morning and 6 pm in the evening.
-- We observed that the bike rental count is high during working days than on non-working days.
-- We see that people generally prefer to bike at moderate to high temperatures and when little windy.
+Our analysis shows that bike rental count is mostly correlated with the time of day, with peaks at 8 am in the morning and 6 pm in the evening. Additionally, the bike rental count is high during working days compared to non-working days, and people generally prefer to bike in moderate to high temperatures and when it's a little windy.
+
+**Conclusions**
+
+By accurately predicting the bike demand, we can help companies provide their customers with the best bike-sharing experience without any delays. We hope our project can be helpful in the future development of the bike-sharing industry and inspire further research in the field.
